@@ -1,6 +1,6 @@
-
-.fondo-principal {
-  background-image: url("../oficina.jpg") no-repeat center;
-  background-size: cover;
-  min-height: 100vh;
+html,
+body,
+header,
+.view {
+  height: 100%;
 }
