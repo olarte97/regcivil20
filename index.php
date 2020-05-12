@@ -20,6 +20,7 @@
 </head>
 
 <body>
+<div class="container">
 <img src="oficina.jpg" class="img-fluid" alt="Responsive image">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Registro</a>
@@ -53,7 +54,7 @@
     </ul>
   </div>
 </nav>
-
+</div>
 
 <!-- Modal Nacimiento -->
 <div class="modal fade" id="modalNacimiento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
