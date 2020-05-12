@@ -41,8 +41,7 @@
       
       <li class="nav-item">
         <a class="nav-link" href="#">Busqueda</a>
-      </li>þ
-
+      </li>
       
       <li class="nav-item">
         <a class="nav-link" href="#">Acerca de</a>
