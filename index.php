@@ -20,7 +20,6 @@
 </head>
 
 <body>
-<div class="container fondo-principal">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Registro</a>
@@ -54,6 +53,8 @@
     </ul>
   </div>
 </nav>
+
+<div class="view" style="background-image: url('oficina.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 </div>
 
 <!-- Modal Nacimiento -->
