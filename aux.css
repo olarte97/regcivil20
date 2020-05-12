@@ -4,3 +4,7 @@ header,
 .view {
   height: 100%;
 }
+
+.navbar {
+background: transparent !important;
+}
