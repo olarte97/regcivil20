@@ -21,8 +21,6 @@
 
 <body>
 
-<header>
-
 <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
   <a class="navbar-brand" href="#">Registro</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,8 +78,6 @@
             </div>
             <!-- Mask & flexbox options-->
 </div>
-
-</header>
 
 
 <!-- Modal Nacimiento -->
