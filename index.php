@@ -21,6 +21,8 @@
 
 <body>
 
+<header>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Registro</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,6 +80,9 @@
             </div>
             <!-- Mask & flexbox options-->
 </div>
+
+</header>
+
 
 <!-- Modal Nacimiento -->
 <div class="modal fade" id="modalNacimiento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
