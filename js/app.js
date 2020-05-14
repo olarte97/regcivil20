@@ -27,5 +27,26 @@ $(document).ready(function() {
 
     });
 
+    $('#checkin2').datepicker({
+        language: "es",
+        todayBtn: "linked",
+        clearBtn: true,
+        format: "dd/mm/yyyy",
+        multidate: false,
+        todayHighlight: true
+
+    });
+
+    $('#checkout2').datepicker({
+        language: "es",
+        todayBtn: "linked",
+        clearBtn: true,
+        format: "dd/mm/yyyy",
+        multidate: false,
+        todayHighlight: true
+
+    });
+
+
 })
 
