@@ -3,11 +3,11 @@
         <!--row-->
         <div class="form-group col-md-6">
             <label for="Check-in">Check-in</label>
-            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
+            <input type="text" readonly="" class="form-control" id="checkin2" placeholder="Check-in">
         </div>
         <div class="form-group col-md-6">
             <label for="Check-out">Check-out</label>
-            <input type="text" readonly="" class="form-control" id="checkout" placeholder="Check-out">
+            <input type="text" readonly="" class="form-control" id="checkout2" placeholder="Check-out">
         </div>
         <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
