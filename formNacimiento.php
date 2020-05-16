@@ -1,14 +1,39 @@
  <form action="" method="post">
+
     <div class="form-row">
         <!--row-->
-        <div class="form-group col-md-6">
-            <label for="Check-in">Check-in</label>
+        <div class="form-group col-md-2">
+            <label for="Check-in">Fecha</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
         </div>
-        <div class="form-group col-md-6">
-            <label for="Check-out">Check-out</label>
-            <input type="text" readonly="" class="form-control" id="checkout" placeholder="Check-out">
+        
+        <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+                <option selected>Departamento...</option>
+                <option>...</option>
+            </select>
         </div>
+        <div class="form-group col-md-1">
+            <label for="Check-in">Codigo</label>
+            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">Provincia</label>
+            <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>        <div class="form-group col-md-1">
+            <label for="Check-in">Codigo</label>
+            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
+        </div>
+
+    </div>
+
+
+    <div class="form-row">
+
         <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">

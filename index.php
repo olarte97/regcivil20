@@ -71,7 +71,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <?php include('formulario.php'); ?> 
+                <?php include('formNacimiento.php'); ?> 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
