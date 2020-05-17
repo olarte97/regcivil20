@@ -21,6 +21,8 @@
 
 <body>
 
+<main class="container">
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Registro</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,6 +128,9 @@
     </div>
 </div>
 
+
+</main>
+
     <!-- Scrip principales de funcionamiento -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -134,6 +139,7 @@
     <!--Obligatorio que la libreria datepicker este en el footer justo despues de los js de bootstrap para no causar conflicto-->
     <script src="libs/js/bootstrap-datepicker.min.js"></script>
     <script src="libs/locales/bootstrap-datepicker.es.min.js"></script>
+
 
 </body>
 
