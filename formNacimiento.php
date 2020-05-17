@@ -51,6 +51,23 @@
     </div>
 
     <div class="form-row">
+        <!--row-->
+        <div class="form-group col-md-4">
+            <label for="inputCity">Nombres</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Apellido Paterno</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Apellido Materno</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+
+    </div>
+
+    <div class="form-row">
 
         <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
