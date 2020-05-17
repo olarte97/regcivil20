@@ -8,7 +8,7 @@
         </div>
         
         <div class="form-group col-md-4">
-            <label for="inputState">State</label>
+            <label for="inputState">Departamento</label>
             <select id="inputState" class="form-control">
                 <option selected>Departamento...</option>
                 <option>...</option>
