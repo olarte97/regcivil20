@@ -7,27 +7,27 @@
             <label for="Check-in">Fecha</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
         </div>
-    </div>
-    <div class="form-row">     
-        <div class="form-group col-md-4">
+    <!--</div>
+    <div class="form-row"> -->
+        <div class="form-group col-md-3">
             <label for="inputState">Departamento</label>
             <select id="inputState" class="form-control">
                 <option selected>...</option>
                 <option>...</option>
             </select>
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-1">
             <label for="Check-in">Codigo</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-3">
             <label for="inputState">Provincia</label>
             <select id="inputState" class="form-control">
                 <option selected>...</option>
                 <option>...</option>
             </select>
         </div>        
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-1">
             <label for="Check-in">Codigo</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
         </div>
