@@ -3,7 +3,7 @@
 
     <div class="form-row">
         <!--row-->
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-2.5">
             <label for="Check-in">Fecha</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
         </div>
@@ -15,7 +15,7 @@
                 <option>...</option>
             </select>
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-1.5">
             <label for="Check-in">Codigo</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
         </div>
@@ -26,7 +26,7 @@
                 <option>...</option>
             </select>
         </div>        
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-1.5">
             <label for="Check-in">Codigo</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
         </div>
