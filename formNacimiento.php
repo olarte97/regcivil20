@@ -16,10 +16,7 @@
                 <option>...</option>
             </select>
         </div>
-        <div class="form-group col-md-1">
-            <label for="Check-in">Codigo</label>
-            <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
-        </div>
+        
         <div class="form-group col-md-3">
             <label for="inputState">Provincia</label>
             <select id="inputState" class="form-control">
@@ -27,10 +24,7 @@
                 <option>...</option>
             </select>
         </div>        
-        <div class="form-group col-md-1">
-            <label for="Check-in">Codigo</label>
-            <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
-        </div>
+        
         <div class="form-group col-md-3">
             <label for="inputState">Distrito</label>
             <select id="inputState" class="form-control">
@@ -38,9 +32,12 @@
                 <option>...</option>
             </select>
         </div>        
-        <div class="form-group col-md-1">
-            <label for="Check-in">Codigo</label>
-            <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
+         <div class="form-group col-md-3">
+            <label for="inputState">Centro Pobl.</label>
+            <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>...</option>
+            </select>
         </div>
 
     </div>
