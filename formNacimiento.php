@@ -10,8 +10,8 @@
     <div class="form-row">
         <div class="form-group col-md-3">
             <label for="inputState">Departamento</label>
-            <select id="inputState" class="form-control">
-                <option selected>...</option>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>PUNO</option>
                 <option>...</option>
             </select>
         </div>
