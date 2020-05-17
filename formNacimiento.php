@@ -1,7 +1,12 @@
 <form action="" method="post">
 
+    <div class="form-group">
+            <h1>Datos de Registro</h1>
+    </div>
+
     <div class="form-row">
         <!--row-->
+        
         <div class="form-group col-md-3">
             <label for="Check-in">Fecha</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
