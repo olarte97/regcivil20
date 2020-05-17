@@ -1,3 +1,4 @@
+<div class="container">
  <form action="" method="post">
 
     <div class="form-row">
@@ -80,4 +81,5 @@
         </div>
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+</form>    
+</div>
