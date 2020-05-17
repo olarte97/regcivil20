@@ -1,7 +1,7 @@
 <form action="" method="post">
 
     <div class="form-group">
-            <h4>Datos de Registro</h4>
+            <h5>Datos de Registro</h5>
     </div>
 
     <div class="form-row">
@@ -46,26 +46,106 @@
 
     </div>
     
+    <!-- DATOS DEL NACIDO -->
+
     <div class="form-group">
-            <h4>Datos del Nacido</h4>
+            <h5>Datos del Nacido</h5>
     </div>
 
     <div class="form-row">
         <!--row-->
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-3">
             <label for="inputCity">Nombres</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-3">
             <label for="inputCity">Apellido Paterno</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-3">
             <label for="inputCity">Apellido Materno</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
+        <div class="form-group col-md-3">
+            <label for="inputState">Sexo:</label>
+            <select id="inputState" class="form-control">
+                <option selected>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </div>        
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="inputState">Nacido en:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>PUNO</option>
+                
+            </select>
+        </div>
+        
+        <div class="form-group col-md-3">
+            <label for="inputState">Provincia</label>
+            <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>...</option>
+            </select>
+        </div>        
+        
+        <div class="form-group col-md-3">
+            <label for="inputState">Distrito</label>
+            <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>...</option>
+            </select>
+        </div>        
+         <div class="form-group col-md-3">
+            <label for="inputState">Centro Pobl.</label>
+            <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>...</option>
+            </select>
+        </div>
 
     </div>
+
+    <div class="form-row">
+        <!--row-->
+        
+        <div class="form-group col-md-3">
+            <label for="Check-in">Hora</label>
+            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="Check-in">Fecha</label>
+            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputCity">Fecha en letras:</label>
+            <input type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputState">Establecimiento:</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Clinica</option>
+                    <option>Centro de salud</option>
+                    <option>Posta</option>
+                </select>
+            </div>
+            <div class="form-group col-md-8">
+                    <label for="inputCity">Nombre y dirección:</label>
+                    <input type="text" class="form-control">
+                </div>
+    </div>
+
+    <div class="form-group">
+            <h5>Datos de la Madre</h5>
+    </div>
+
+
+
 
     <div class="form-row">
 
