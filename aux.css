@@ -5,6 +5,13 @@ header,
   height: 100%;
 }
 
+@media (min-width: 992px) {
+     .modal-dialog {
+       max-width: 80%;
+     }
+}
+
+
 /*
 
 @media (max-width: 740px) {
