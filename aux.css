@@ -5,11 +5,12 @@ header,
   height: 100%;
 }
 
+.modal-lg {
+       max-width: 100% !important;
+}
+
 /*
 
-.modal-lg {
-       max-width: 80% !important;
-}
 
 @media (max-width: 740px) {
   html,

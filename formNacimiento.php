@@ -59,11 +59,11 @@
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-3">
-            <label for="inputCity">Apellido Paterno</label>
+            <label for="inputCity">Ape.Paterno:</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-3">
-            <label for="inputCity">Apellido Materno</label>
+            <label for="inputCity">Ape.Materno:</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-3">
