@@ -10,20 +10,20 @@
     </div>
     <div class="form-row">     
         <div class="form-group col-md-4">
-            <label for="inputState">Departamento</label>
+            <label for="inputState"></label>
             <select id="inputState" class="form-control">
                 <option selected>Departamento...</option>
                 <option>...</option>
             </select>
         </div>
         <div class="form-group col-md-2">
-            <label for="Check-in">Codigo</label>
+            <label for="Check-in"></label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
         </div>
         <div class="form-group col-md-4">
-            <label for="inputState">Provincia</label>
+            <label for="inputState"></label>
             <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
+                <option selected>Provincia...</option>
                 <option>...</option>
             </select>
         </div>        
