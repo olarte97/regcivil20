@@ -1,7 +1,7 @@
 <form action="" method="post">
 
     <div class="form-group">
-            <h3>Datos de Registro</h3>
+            <h4>Datos de Registro</h4>
     </div>
 
     <div class="form-row">
@@ -47,7 +47,7 @@
     </div>
     
     <div class="form-group">
-            <h3>Datos del Nacido</h3>
+            <h4>Datos del Nacido</h4>
     </div>
 
     <div class="form-row">
