@@ -10,26 +10,26 @@
     </div>
     <div class="form-row">     
         <div class="form-group col-md-4">
-            <label for="inputState"></label>
+            <label for="inputState">Departamento</label>
             <select id="inputState" class="form-control">
-                <option selected>Departamento...</option>
+                <option selected>...</option>
                 <option>...</option>
             </select>
         </div>
         <div class="form-group col-md-2">
-            <label for="Check-in"></label>
-            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
+            <label for="Check-in">Codigo</label>
+            <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
         </div>
         <div class="form-group col-md-4">
-            <label for="inputState"></label>
+            <label for="inputState">Provincia</label>
             <select id="inputState" class="form-control">
-                <option selected>Provincia...</option>
+                <option selected>...</option>
                 <option>...</option>
             </select>
         </div>        
         <div class="form-group col-md-2">
             <label for="Check-in">Codigo</label>
-            <input type="text" readonly="" class="form-control" id="checkin" placeholder="Codigo">
+            <input type="text" readonly="" class="form-control" id="checkin" placeholder="">
         </div>
 
     </div>
