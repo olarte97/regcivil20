@@ -3,7 +3,7 @@
 
     <div class="form-row">
         <!--row-->
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-2">
             <label for="Check-in">Fecha</label>
             <input type="text" readonly="" class="form-control" id="checkin" placeholder="Check-in">
         </div>
