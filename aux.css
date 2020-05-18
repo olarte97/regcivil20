@@ -13,6 +13,8 @@ header,
   text-align: center;
 }
 
+
+/*
 @media screen and (min-width: 768px) { 
   .modal:before {
     display: inline-block;
@@ -27,9 +29,6 @@ header,
   text-align: left;
   vertical-align: middle;
 }
-
-/*
-
 
 @media (max-width: 740px) {
   html,
