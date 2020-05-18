@@ -1,8 +1,9 @@
 <form action="" method="post">
 
     <div class="form-group">
-            <h5>Datos de Registro</h5>
+            <h6 style="color: green;"><b>DATOS DEL REGISTRO:</b> </h6>
     </div>
+<div class="modal-footer"></div>    
 
     <div class="form-row">
         <!--row-->
@@ -45,29 +46,33 @@
         </div>
 
     </div>
-    
+
     <!-- DATOS DEL NACIDO -->
 
+<div class="modal-footer"></div>
+
     <div class="form-group">
-            <h5>Datos del Nacido</h5>
+            <h6 style="color: green;"><b>DATOS DEL NACIDO:</b> </h6>
     </div>
+
+<div class="modal-footer"></div>
 
     <div class="form-row">
         <!--row-->
         <div class="form-group col-md-3">
-            <label for="inputCity">Nombres</label>
+            <label for="inputCity">Primer apellido</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-3">
-            <label for="inputCity">Ape.Paterno:</label>
+            <label for="inputCity">Segundo apellido</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-3">
-            <label for="inputCity">Ape.Materno:</label>
+            <label for="inputCity">Pre-nombres</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-3">
-            <label for="inputState">Sexo:</label>
+            <label for="inputState">Sexo</label>
             <select id="inputState" class="form-control">
                 <option selected>Masculino</option>
                 <option>Femenino</option>
@@ -140,60 +145,262 @@
                 </div>
     </div>
 
+
+<!-- DATOS DE LA MADRE -->
+
+<div class="modal-footer"></div>
+
     <div class="form-group">
-            <h5>Datos de la Madre</h5>
+            <h6 style="color: green;"><b>DATOS DE LA MADRE:</b> </h6>
     </div>
 
-
-
-
-    <div class="form-row">
-
-        <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputPassword4">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-        </div>
-    </div>
-    <!--/row-->
-    <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-group">
-        <label for="inputAddress2">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
+<div class="modal-footer"></div>
+    
     <div class="form-row">
         <!--row-->
-        <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
+        
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Paterno:</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-            </select>
+            <label for="inputCity">Ape.Materno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Nombres</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+    <div class="form-row">
+        <!--row-->
+        <div class="form-group col-md-1">
+            <label for="inputCity">Edad:</label>
+            <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
+            <label for="inputState">Nacionalidad:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>Peruano(a)</option>
+                <option>Extranjero(a)</option>
+            </select>
         </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Natural de:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Tipo documento:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>DNI</option>
+                <option>Pasaporte</option>
+                <option>Carnet de extrangeria</option>
+            </select>
+        </div>
+        <div class="form-group col-md-3">
+            <label for="inputCity">Numero doc:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
     </div>
-    <!--/row-->
+
+<!-- DATOS DEL PADRE -->
+
+<div class="modal-footer"></div>
     <div class="form-group">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-                Check me out
-            </label>
-        </div>
+        <h6 style="color: green;"><b>DATOS DEL PADRE:</b> </h6>
     </div>
+<div class="modal-footer"></div>
+
+    <div class="form-row">
+        <!--row-->
+        
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Paterno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Materno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Nombres</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+    <div class="form-row">
+        <!--row-->
+        <div class="form-group col-md-1">
+            <label for="inputCity">Edad:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Nacionalidad:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>Peruano(a)</option>
+                <option>Extranjero(a)</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Natural de:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Tipo documento:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>DNI</option>
+                <option>Pasaporte</option>
+                <option>Carnet de extrangeria</option>
+            </select>
+        </div>
+        <div class="form-group col-md-3">
+            <label for="inputCity">Numero doc:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+
+<!-- DATOS DEL DECLARANTE 1 -->
+
+<div class="modal-footer"></div>
+
+    <div class="form-group">
+        <h6 style="color: green;"><b>DECLARANTE:</b> </h6>
+    </div>
+<div class="modal-footer"></div>
+
+    <div class="form-row">
+        <!--row-->
+        
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Paterno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Materno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Nombres</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+    <div class="form-row">
+        <!--row-->
+        <div class="form-group col-md-1">
+            <label for="inputCity">Edad:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Nacionalidad:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>Peruano(a)</option>
+                <option>Extranjero(a)</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Natural de:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Tipo documento:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>DNI</option>
+                <option>Pasaporte</option>
+                <option>Carnet de extrangeria</option>
+            </select>
+        </div>
+        <div class="form-group col-md-3">
+            <label for="inputCity">Numero doc:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+
+<!-- DATOS DEL DECLARANTE 2 -->
+
+<div class="modal-footer"></div>
+
+    <div class="form-group">
+        <h6 style="color: green;"><b>DECLARANTE:</b> </h6>
+    </div>
+<div class="modal-footer"></div>
+
+    <div class="form-row">
+        <!--row-->
+        
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Paterno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Ape.Materno:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Nombres</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+    <div class="form-row">
+        <!--row-->
+        <div class="form-group col-md-1">
+            <label for="inputCity">Edad:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Nacionalidad:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>Peruano(a)</option>
+                <option>Extranjero(a)</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Natural de:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputState">Tipo documento:</label>
+            <select id="inputState" readonly="" class="form-control">
+                <option selected>DNI</option>
+                <option>Pasaporte</option>
+                <option>Carnet de extrangeria</option>
+            </select>
+        </div>
+        <div class="form-group col-md-3">
+            <label for="inputCity">Numero doc:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+
+<!-- DATOS DEL REGISTRADOR -->
+
+<div class="modal-footer"></div>
+
+    <div class="form-group">
+        <h6 style="color: green;"><b>REGISTRADOR:</b> </h6>
+    </div>
+<div class="modal-footer"></div>
+
+    <div class="form-row">
+        <!--row-->
+        
+        <div class="form-group col-md-8">
+            <label for="inputCity">Apellidos y prenombres:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputCity">Documento DNI:</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+    </div>
+    
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>    
 
